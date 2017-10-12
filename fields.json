@@ -1,1 +1,468 @@
-Replace this file with your CFS JSON export.
+[
+{
+    "post_title": "Carousel & Welcome Message",
+    "post_name": "carousel",
+    "cfs_fields": [
+    {
+        "id": 679,
+        "name": "carousel",
+        "label": "Carousel",
+        "type": "tab",
+        "notes": "",
+        "parent_id": 0,
+        "weight": 0,
+        "options": []
+    },
+    {
+        "id": 680,
+        "name": "carousel_slides",
+        "label": "Carousel slides",
+        "type": "loop",
+        "notes": "Add slides to the Carousel. From 1 to 5 slides allowed. Carousel will be disabled if you dont add any slides.",
+        "parent_id": 0,
+        "weight": 1,
+        "options":
+        {
+            "row_display": "1",
+            "row_label": "Slide",
+            "button_label": "Add Slide",
+            "limit_min": "0",
+            "limit_max": "5"
+        }
+    },
+    {
+        "id": 681,
+        "name": "carousel_slide_header",
+        "label": "Header",
+        "type": "text",
+        "notes": "",
+        "parent_id": 680,
+        "weight": 2,
+        "options":
+        {
+            "default_value": "First Slide",
+            "required": "0"
+        }
+    },
+    {
+        "id": 682,
+        "name": "carousel_slide_text",
+        "label": "Text",
+        "type": "textarea",
+        "notes": "",
+        "parent_id": 680,
+        "weight": 3,
+        "options":
+        {
+            "default_value": "This is the caption for the first slide.",
+            "formatting": "auto_br",
+            "required": "0"
+        }
+    },
+    {
+        "id": 683,
+        "name": "carousel_slide_image",
+        "label": "Image",
+        "type": "file",
+        "notes": "",
+        "parent_id": 680,
+        "weight": 4,
+        "options":
+        {
+            "file_type": "image",
+            "return_value": "url",
+            "required": "0"
+        }
+    },
+    {
+        "id": 684,
+        "name": "welcome",
+        "label": "Welcome",
+        "type": "tab",
+        "notes": "",
+        "parent_id": 0,
+        "weight": 5,
+        "options": []
+    },
+    {
+        "id": 685,
+        "name": "welcome_header",
+        "label": "Welcome Header",
+        "type": "text",
+        "notes": "Leave blank this value to disable Welcome block",
+        "parent_id": 0,
+        "weight": 6,
+        "options":
+        {
+            "default_value": "Welcome To",
+            "required": "0"
+        }
+    },
+    {
+        "id": 686,
+        "name": "welcome_text",
+        "label": "Welcome Text",
+        "type": "text",
+        "notes": "",
+        "parent_id": 0,
+        "weight": 7,
+        "options":
+        {
+            "default_value": "Business Casual",
+            "required": "0"
+        }
+    },
+    {
+        "id": 687,
+        "name": "welcome_footer",
+        "label": "Welcome Footer",
+        "type": "text",
+        "notes": "",
+        "parent_id": 0,
+        "weight": 8,
+        "options":
+        {
+            "default_value": "By <strong>Start Bootstrap<\/strong>",
+            "required": "0"
+        }
+    }],
+    "cfs_rules":
+    {
+        "page_templates":
+        {
+            "operator": "==",
+            "values": ["page-home.php"]
+        }
+    },
+    "cfs_extras":
+    {
+        "order": "0",
+        "context": "normal",
+        "hide_editor": "1"
+    }
+},
+{
+    "post_title": "EDITOR BOXES",
+    "post_name": "wysiwyg-boxes",
+    "cfs_fields": [
+    {
+        "id": 688,
+        "name": "boxes_list",
+        "label": "Boxes list",
+        "type": "loop",
+        "notes": "",
+        "parent_id": 0,
+        "weight": 0,
+        "options":
+        {
+            "row_display": "1",
+            "row_label": "Box",
+            "button_label": "Add Box",
+            "limit_min": "",
+            "limit_max": ""
+        }
+    },
+    {
+        "id": 689,
+        "name": "box_header",
+        "label": "Header",
+        "type": "text",
+        "notes": "",
+        "parent_id": 688,
+        "weight": 1,
+        "options":
+        {
+            "default_value": "Beautiful boxes to <strong>showcase your content<\/strong>",
+            "required": "0"
+        }
+    },
+    {
+        "id": 690,
+        "name": "box_intro_picture",
+        "label": "Intro picture",
+        "type": "file",
+        "notes": "",
+        "parent_id": 688,
+        "weight": 2,
+        "options":
+        {
+            "file_type": "image",
+            "return_value": "url",
+            "required": "0"
+        }
+    },
+    {
+        "id": 691,
+        "name": "box_editor",
+        "label": "Editor",
+        "type": "wysiwyg",
+        "notes": "",
+        "parent_id": 688,
+        "weight": 3,
+        "options":
+        {
+            "formatting": "default",
+            "required": "0"
+        }
+    }],
+    "cfs_rules":
+    {
+        "page_templates":
+        {
+            "operator": "==",
+            "values": ["page-home.php"]
+        }
+    },
+    "cfs_extras":
+    {
+        "order": "0",
+        "context": "normal",
+        "hide_editor": "0"
+    }
+},
+{
+    "post_title": "ABOUT",
+    "post_name": "about",
+    "cfs_fields": [
+    {
+        "id": 692,
+        "name": "about_header",
+        "label": "Header",
+        "type": "text",
+        "notes": "",
+        "parent_id": 0,
+        "weight": 0,
+        "options":
+        {
+            "default_value": "About <strong>Business Casual<\/strong>",
+            "required": "0"
+        }
+    },
+    {
+        "id": 693,
+        "name": "about_image",
+        "label": "Image",
+        "type": "file",
+        "notes": "",
+        "parent_id": 0,
+        "weight": 1,
+        "options":
+        {
+            "file_type": "image",
+            "return_value": "url",
+            "required": "0"
+        }
+    },
+    {
+        "id": 694,
+        "name": "about_editor",
+        "label": "WYSIWYG Editor",
+        "type": "wysiwyg",
+        "notes": "",
+        "parent_id": 0,
+        "weight": 2,
+        "options":
+        {
+            "formatting": "default",
+            "required": "0"
+        }
+    }],
+    "cfs_rules":
+    {
+        "page_templates":
+        {
+            "operator": "==",
+            "values": ["page-about.php"]
+        }
+    },
+    "cfs_extras":
+    {
+        "order": "0",
+        "context": "normal",
+        "hide_editor": "1"
+    }
+},
+{
+    "post_title": "TEAM",
+    "post_name": "team",
+    "cfs_fields": [
+    {
+        "id": 695,
+        "name": "team_header",
+        "label": "Header",
+        "type": "text",
+        "notes": "",
+        "parent_id": 0,
+        "weight": 0,
+        "options":
+        {
+            "default_value": "Our <strong>Team<\/strong>",
+            "required": "0"
+        }
+    },
+    {
+        "id": 696,
+        "name": "team_members",
+        "label": "Team Members",
+        "type": "loop",
+        "notes": "",
+        "parent_id": 0,
+        "weight": 1,
+        "options":
+        {
+            "row_display": "0",
+            "row_label": "Team Member",
+            "button_label": "Add Team Member",
+            "limit_min": "",
+            "limit_max": ""
+        }
+    },
+    {
+        "id": 697,
+        "name": "team_member_name",
+        "label": "Name",
+        "type": "text",
+        "notes": "",
+        "parent_id": 696,
+        "weight": 2,
+        "options":
+        {
+            "default_value": "John Smith",
+            "required": "0"
+        }
+    },
+    {
+        "id": 698,
+        "name": "team_member_job_title",
+        "label": "Job Title",
+        "type": "text",
+        "notes": "",
+        "parent_id": 696,
+        "weight": 3,
+        "options":
+        {
+            "default_value": "Job Title",
+            "required": "0"
+        }
+    },
+    {
+        "id": 699,
+        "name": "team_member_photo",
+        "label": "Photo",
+        "type": "file",
+        "notes": "",
+        "parent_id": 696,
+        "weight": 4,
+        "options":
+        {
+            "file_type": "image",
+            "return_value": "url",
+            "required": "0"
+        }
+    }],
+    "cfs_rules":
+    {
+        "page_templates":
+        {
+            "operator": "==",
+            "values": ["page-about.php"]
+        }
+    },
+    "cfs_extras":
+    {
+        "order": "0",
+        "context": "normal",
+        "hide_editor": "0"
+    }
+},
+{
+    "post_title": "CONTACT",
+    "post_name": "contact",
+    "cfs_fields": [
+    {
+        "id": 700,
+        "name": "contact_header",
+        "label": "Header",
+        "type": "text",
+        "notes": "",
+        "parent_id": 0,
+        "weight": 0,
+        "options":
+        {
+            "default_value": "Contact <strong>Business Casual<\/strong>",
+            "required": "0"
+        }
+    },
+    {
+        "id": 701,
+        "name": "contact_maps_iframe",
+        "label": "Maps Iframe",
+        "type": "textarea",
+        "notes": "",
+        "parent_id": 0,
+        "weight": 1,
+        "options":
+        {
+            "default_value": "<iframe frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" src=\"http:\/\/maps.google.com\/maps?hl=en&ie=UTF8&ll=37.0625,-95.677068&spn=56.506174,79.013672&t=m&z=4&output=embed\"><\/iframe>",
+            "formatting": "none",
+            "required": "0"
+        }
+    },
+    {
+        "id": 702,
+        "name": "contact_phone",
+        "label": "Phone",
+        "type": "text",
+        "notes": "",
+        "parent_id": 0,
+        "weight": 2,
+        "options":
+        {
+            "default_value": "123.456.7890",
+            "required": "0"
+        }
+    },
+    {
+        "id": 703,
+        "name": "contact_email",
+        "label": "Email",
+        "type": "text",
+        "notes": "",
+        "parent_id": 0,
+        "weight": 3,
+        "options":
+        {
+            "default_value": "name@example.com",
+            "required": "0"
+        }
+    },
+    {
+        "id": 704,
+        "name": "contact_address",
+        "label": "Address",
+        "type": "textarea",
+        "notes": "",
+        "parent_id": 0,
+        "weight": 4,
+        "options":
+        {
+            "default_value": "3481 Melrose Place\r\nBeverly Hills, CA 90210",
+            "formatting": "auto_br",
+            "required": "0"
+        }
+    }],
+    "cfs_rules":
+    {
+        "page_templates":
+        {
+            "operator": "==",
+            "values": ["page-contact.php"]
+        }
+    },
+    "cfs_extras":
+    {
+        "order": "0",
+        "context": "normal",
+        "hide_editor": "1"
+    }
+}]
