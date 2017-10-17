@@ -2,9 +2,15 @@
 {
     "post_title": "Carousel & Welcome Message",
     "post_name": "carousel",
+    "cfs_extras":
+    {
+        "order": "0",
+        "context": "normal",
+        "hide_editor": "1"
+    },
     "cfs_fields": [
     {
-        "id": 679,
+        "id": 913,
         "name": "carousel",
         "label": "Carousel",
         "type": "tab",
@@ -14,7 +20,7 @@
         "options": []
     },
     {
-        "id": 680,
+        "id": 914,
         "name": "carousel_slides",
         "label": "Carousel slides",
         "type": "loop",
@@ -31,12 +37,12 @@
         }
     },
     {
-        "id": 681,
+        "id": 915,
         "name": "carousel_slide_header",
         "label": "Header",
         "type": "text",
         "notes": "",
-        "parent_id": 680,
+        "parent_id": 914,
         "weight": 2,
         "options":
         {
@@ -45,12 +51,12 @@
         }
     },
     {
-        "id": 682,
+        "id": 916,
         "name": "carousel_slide_text",
         "label": "Text",
         "type": "textarea",
         "notes": "",
-        "parent_id": 680,
+        "parent_id": 914,
         "weight": 3,
         "options":
         {
@@ -60,12 +66,12 @@
         }
     },
     {
-        "id": 683,
+        "id": 917,
         "name": "carousel_slide_image",
         "label": "Image",
         "type": "file",
         "notes": "",
-        "parent_id": 680,
+        "parent_id": 914,
         "weight": 4,
         "options":
         {
@@ -75,7 +81,7 @@
         }
     },
     {
-        "id": 684,
+        "id": 918,
         "name": "welcome",
         "label": "Welcome",
         "type": "tab",
@@ -85,7 +91,7 @@
         "options": []
     },
     {
-        "id": 685,
+        "id": 919,
         "name": "welcome_header",
         "label": "Welcome Header",
         "type": "text",
@@ -99,7 +105,7 @@
         }
     },
     {
-        "id": 686,
+        "id": 920,
         "name": "welcome_text",
         "label": "Welcome Text",
         "type": "text",
@@ -113,7 +119,7 @@
         }
     },
     {
-        "id": 687,
+        "id": 921,
         "name": "welcome_footer",
         "label": "Welcome Footer",
         "type": "text",
@@ -133,20 +139,20 @@
             "operator": "==",
             "values": ["page-home.php"]
         }
-    },
-    "cfs_extras":
-    {
-        "order": "0",
-        "context": "normal",
-        "hide_editor": "1"
     }
 },
 {
     "post_title": "EDITOR BOXES",
     "post_name": "wysiwyg-boxes",
+    "cfs_extras":
+    {
+        "order": "0",
+        "context": "normal",
+        "hide_editor": "0"
+    },
     "cfs_fields": [
     {
-        "id": 688,
+        "id": 922,
         "name": "boxes_list",
         "label": "Boxes list",
         "type": "loop",
@@ -163,12 +169,12 @@
         }
     },
     {
-        "id": 689,
+        "id": 923,
         "name": "box_header",
         "label": "Header",
         "type": "text",
         "notes": "",
-        "parent_id": 688,
+        "parent_id": 922,
         "weight": 1,
         "options":
         {
@@ -177,12 +183,12 @@
         }
     },
     {
-        "id": 690,
+        "id": 924,
         "name": "box_intro_picture",
         "label": "Intro picture",
         "type": "file",
         "notes": "",
-        "parent_id": 688,
+        "parent_id": 922,
         "weight": 2,
         "options":
         {
@@ -192,12 +198,12 @@
         }
     },
     {
-        "id": 691,
+        "id": 925,
         "name": "box_editor",
         "label": "Editor",
         "type": "wysiwyg",
         "notes": "",
-        "parent_id": 688,
+        "parent_id": 922,
         "weight": 3,
         "options":
         {
@@ -212,20 +218,20 @@
             "operator": "==",
             "values": ["page-home.php"]
         }
-    },
-    "cfs_extras":
-    {
-        "order": "0",
-        "context": "normal",
-        "hide_editor": "0"
     }
 },
 {
     "post_title": "ABOUT",
     "post_name": "about",
+    "cfs_extras":
+    {
+        "order": "0",
+        "context": "normal",
+        "hide_editor": "1"
+    },
     "cfs_fields": [
     {
-        "id": 692,
+        "id": 926,
         "name": "about_header",
         "label": "Header",
         "type": "text",
@@ -239,7 +245,7 @@
         }
     },
     {
-        "id": 693,
+        "id": 927,
         "name": "about_image",
         "label": "Image",
         "type": "file",
@@ -254,7 +260,7 @@
         }
     },
     {
-        "id": 694,
+        "id": 928,
         "name": "about_editor",
         "label": "WYSIWYG Editor",
         "type": "wysiwyg",
@@ -274,20 +280,20 @@
             "operator": "==",
             "values": ["page-about.php"]
         }
-    },
-    "cfs_extras":
-    {
-        "order": "0",
-        "context": "normal",
-        "hide_editor": "1"
     }
 },
 {
     "post_title": "TEAM",
     "post_name": "team",
+    "cfs_extras":
+    {
+        "order": "0",
+        "context": "normal",
+        "hide_editor": "0"
+    },
     "cfs_fields": [
     {
-        "id": 695,
+        "id": 929,
         "name": "team_header",
         "label": "Header",
         "type": "text",
@@ -301,7 +307,7 @@
         }
     },
     {
-        "id": 696,
+        "id": 930,
         "name": "team_members",
         "label": "Team Members",
         "type": "loop",
@@ -318,12 +324,12 @@
         }
     },
     {
-        "id": 697,
+        "id": 931,
         "name": "team_member_name",
         "label": "Name",
         "type": "text",
         "notes": "",
-        "parent_id": 696,
+        "parent_id": 930,
         "weight": 2,
         "options":
         {
@@ -332,12 +338,12 @@
         }
     },
     {
-        "id": 698,
+        "id": 932,
         "name": "team_member_job_title",
         "label": "Job Title",
         "type": "text",
         "notes": "",
-        "parent_id": 696,
+        "parent_id": 930,
         "weight": 3,
         "options":
         {
@@ -346,12 +352,12 @@
         }
     },
     {
-        "id": 699,
+        "id": 933,
         "name": "team_member_photo",
         "label": "Photo",
         "type": "file",
         "notes": "",
-        "parent_id": 696,
+        "parent_id": 930,
         "weight": 4,
         "options":
         {
@@ -367,20 +373,20 @@
             "operator": "==",
             "values": ["page-about.php"]
         }
-    },
-    "cfs_extras":
-    {
-        "order": "0",
-        "context": "normal",
-        "hide_editor": "0"
     }
 },
 {
     "post_title": "CONTACT",
     "post_name": "contact",
+    "cfs_extras":
+    {
+        "order": "0",
+        "context": "normal",
+        "hide_editor": "1"
+    },
     "cfs_fields": [
     {
-        "id": 700,
+        "id": 934,
         "name": "contact_header",
         "label": "Header",
         "type": "text",
@@ -394,7 +400,7 @@
         }
     },
     {
-        "id": 701,
+        "id": 935,
         "name": "contact_maps_iframe",
         "label": "Maps Iframe",
         "type": "textarea",
@@ -409,7 +415,7 @@
         }
     },
     {
-        "id": 702,
+        "id": 936,
         "name": "contact_phone",
         "label": "Phone",
         "type": "text",
@@ -423,7 +429,7 @@
         }
     },
     {
-        "id": 703,
+        "id": 937,
         "name": "contact_email",
         "label": "Email",
         "type": "text",
@@ -437,7 +443,7 @@
         }
     },
     {
-        "id": 704,
+        "id": 938,
         "name": "contact_address",
         "label": "Address",
         "type": "textarea",
@@ -458,11 +464,286 @@
             "operator": "==",
             "values": ["page-contact.php"]
         }
-    },
+    }
+},
+{
+    "post_title": "GALLERY",
+    "post_name": "gallery",
     "cfs_extras":
     {
         "order": "0",
         "context": "normal",
-        "hide_editor": "1"
-    }
+        "hide_editor": "0"
+    },
+    "cfs_fields": [
+    {
+        "id": "939",
+        "name": "gallery_header",
+        "label": "Header",
+        "type": "text",
+        "notes": "",
+        "parent_id": 0,
+        "weight": 0,
+        "options":
+        {
+            "default_value": "Our <strong>Gallery<\/strong>",
+            "required": "0"
+        }
+    },
+    {
+        "id": "940",
+        "name": "gallery_items",
+        "label": "Gallery Items",
+        "type": "loop",
+        "notes": "",
+        "parent_id": 0,
+        "weight": 1,
+        "options":
+        {
+            "row_display": "0",
+            "row_label": "Gallery Item",
+            "button_label": "Add Item",
+            "limit_min": "",
+            "limit_max": ""
+        }
+    },
+    {
+        "id": "943",
+        "name": "gallery_item_image",
+        "label": "Image",
+        "type": "file",
+        "notes": "",
+        "parent_id": 940,
+        "weight": 2,
+        "options":
+        {
+            "file_type": "image",
+            "return_value": "id",
+            "required": "0"
+        }
+    },
+    {
+        "id": "941",
+        "name": "gallery_item_name",
+        "label": "Name",
+        "type": "text",
+        "notes": "",
+        "parent_id": 940,
+        "weight": 3,
+        "options":
+        {
+            "default_value": "Project #1",
+            "required": "0"
+        }
+    },
+    {
+        "id": "942",
+        "name": "gallery_item_date",
+        "label": "Date",
+        "type": "date",
+        "notes": "",
+        "parent_id": 940,
+        "weight": 4,
+        "options":
+        {
+            "required": "0"
+        }
+    },
+    {
+        "id": "944",
+        "name": "gallery_date_suffix",
+        "label": "Date suffix",
+        "type": "text",
+        "notes": "",
+        "parent_id": 0,
+        "weight": 5,
+        "options":
+        {
+            "default_value": " year",
+            "required": "0"
+        }
+    },
+    {
+        "id": "945",
+        "name": "gallery_rows_show_limit",
+        "label": "Rows Limit",
+        "type": "select",
+        "notes": "",
+        "parent_id": 0,
+        "weight": 6,
+        "options":
+        {
+            "choices":
+            {
+                "1": "1",
+                "2": "2",
+                "3": "3",
+                "4": "4",
+                "5": "5",
+                "6": "6",
+                "7": "7",
+                "8": "8",
+                "9": "9"
+            },
+            "multiple": "0",
+            "select2": "0",
+            "required": "0"
+        }
+    }],
+    "cfs_rules": []
+},
+{
+    "post_title": "TABLE",
+    "post_name": "table",
+    "cfs_extras":
+    {
+        "order": "0",
+        "context": "normal",
+        "hide_editor": "0"
+    },
+    "cfs_fields": [
+    {
+        "id": "946",
+        "name": "table_header",
+        "label": "Header",
+        "type": "text",
+        "notes": "",
+        "parent_id": 0,
+        "weight": 0,
+        "options":
+        {
+            "default_value": "<strong>Table Header<\/strong>",
+            "required": "0"
+        }
+    },
+    {
+        "id": "947",
+        "name": "table_intro_editor",
+        "label": "Intro",
+        "type": "wysiwyg",
+        "notes": "",
+        "parent_id": 0,
+        "weight": 1,
+        "options":
+        {
+            "formatting": "default",
+            "required": "0"
+        }
+    },
+    {
+        "id": "948",
+        "name": "table_number_column",
+        "label": "Numbers Column Header",
+        "type": "text",
+        "notes": "",
+        "parent_id": 0,
+        "weight": 2,
+        "options":
+        {
+            "default_value": "#",
+            "required": "0"
+        }
+    },
+    {
+        "id": "949",
+        "name": "table_name_column",
+        "label": "Names Column Header",
+        "type": "text",
+        "notes": "",
+        "parent_id": 0,
+        "weight": 3,
+        "options":
+        {
+            "default_value": "Name",
+            "required": "0"
+        }
+    },
+    {
+        "id": "950",
+        "name": "table_other_column",
+        "label": "Others Column Header",
+        "type": "text",
+        "notes": "",
+        "parent_id": 0,
+        "weight": 4,
+        "options":
+        {
+            "default_value": "Other",
+            "required": "0"
+        }
+    },
+    {
+        "id": "951",
+        "name": "table_rows",
+        "label": "Table",
+        "type": "loop",
+        "notes": "",
+        "parent_id": 0,
+        "weight": 5,
+        "options":
+        {
+            "row_display": "0",
+            "row_label": "Table Row",
+            "button_label": "Add Row",
+            "limit_min": "",
+            "limit_max": ""
+        }
+    },
+    {
+        "id": "952",
+        "name": "table_row_name",
+        "label": "Name ",
+        "type": "text",
+        "notes": "",
+        "parent_id": 951,
+        "weight": 6,
+        "options":
+        {
+            "default_value": "String #1",
+            "required": "0"
+        }
+    },
+    {
+        "id": "953",
+        "name": "table_row_link",
+        "label": "URL",
+        "type": "text",
+        "notes": "",
+        "parent_id": 951,
+        "weight": 7,
+        "options":
+        {
+            "default_value": "#",
+            "required": "0"
+        }
+    },
+    {
+        "id": "954",
+        "name": "table_row_other",
+        "label": "Other",
+        "type": "text",
+        "notes": "",
+        "parent_id": 951,
+        "weight": 8,
+        "options":
+        {
+            "default_value": "-",
+            "required": "0"
+        }
+    },
+    {
+        "id": "955",
+        "name": "table_outro_editor",
+        "label": "Outro",
+        "type": "wysiwyg",
+        "notes": "",
+        "parent_id": 0,
+        "weight": 9,
+        "options":
+        {
+            "formatting": "default",
+            "required": "0"
+        }
+    }],
+    "cfs_rules": []
 }]
